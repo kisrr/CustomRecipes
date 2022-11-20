@@ -1,0 +1,43 @@
+#RECIPES
+#https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+
+#|1|2|3|
+#|4|5|6| #crafting grid
+#|7|8|9|
+
+#RESTART THE SERVER TO RELOAD THE PLUGIN
+recipes:
+  crying_obsidian:
+    ingredients:
+      1: 'EMERALD_BLOCK'
+      2: 'EMERALD_BLOCK'
+      3: 'EMERALD_BLOCK'
+      4: 'EMERALD_BLOCK'
+      5: 'OBSIDIAN'
+      6: 'EMERALD_BLOCK'
+      7: 'EMERALD_BLOCK'
+      8: 'EMERALD_BLOCK'
+      9: 'EMERALD_BLOCK'
+    output:
+      material: 'CRYING_OBSIDIAN'
+      amount: 12
+
+  another_recipe:
+    ingredients:
+      1: 'AIR'
+      2: 'AIR'
+      3: 'AIR'
+      4: 'AIR'
+      5: 'AIR'
+      6: 'AIR'
+      7: 'AIR'
+      8: 'AIR'
+      9: 'AIR'
+    output:
+      material: 'AIR'
+      amount: 1
+
+#RECIPE LIST
+recipe-list:
+  - 'crying_obsidian'
+  # - 'another_recipe'

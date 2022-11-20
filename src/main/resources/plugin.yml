@@ -1,0 +1,5 @@
+name: CustomRecipes
+version: '${project.version}'
+main: me.kisr.customrecipes.Main
+api-version: 1.18
+authors: [ kisr ]
